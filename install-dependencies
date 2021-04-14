@@ -3,4 +3,4 @@ Invoke-WebRequest -Uri 'https://github.com/FirebirdSQL/firebird/releases/downloa
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command ./Firebird-2.5.9.27139_0_x64.exe /sp- /verysilent /SUPPRESSMSGBOXES /nocancel /noicons /COMPONENTS="ClassicComponent\ClassicComponent,ServerComponent,DevAdminComponent,ClientComponent";
 rm *.exe;
 cd C:\;
-Invoke-WebRequest -Uri
+Invoke-WebRequest -Uri 'https://github.com/walterdonda/vikingo-docker/tree/master/Vikingosoft'
