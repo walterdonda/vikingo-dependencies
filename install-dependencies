@@ -3,4 +3,6 @@ Invoke-WebRequest -Uri 'https://github.com/FirebirdSQL/firebird/releases/downloa
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command ./Firebird-2.5.9.27139_0_x64.exe /sp- /verysilent /SUPPRESSMSGBOXES /nocancel /noicons /COMPONENTS="ClassicComponent\ClassicComponent,ServerComponent,DevAdminComponent,ClientComponent";
 rm *.exe;
 cd C:\;
-Invoke-WebRequest -Uri 'https://github.com/walterdonda/vikingo-docker/tree/master/Vikingosoft'
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force;
+Install-Module posh-git -Scope CurrentUser -Force;
+Import-Module posh-git;
