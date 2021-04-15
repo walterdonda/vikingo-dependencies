@@ -1,2 +1,3 @@
 # vikingo-docker
-Implementation of a powershell script for windows-server-docker
+Implementation of docker compose for Vikingo Software (Bambú Estudio Software). Deployment can be done easily using powershell.
+
