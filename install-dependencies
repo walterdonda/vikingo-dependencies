@@ -9,3 +9,4 @@ PowerShell -NoProfile -ExecutionPolicy Bypass -Command ./Git-2.31.1-64-bit.exe  
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force;
 Install-Module posh-git -Scope CurrentUser -Force;
 Import-Module posh-git;
+-Command “git”
