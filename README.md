@@ -1,2 +1,2 @@
 # vikingo-docker
-Script para automatizar la instalación de software Vikingo, mediante docker y powershell.
+Implementation of a powershell script for windows-server-docker
