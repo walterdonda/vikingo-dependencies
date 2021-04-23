@@ -1,3 +1,3 @@
-# vikingo-docker
-Implementation of docker compose for Vikingo Software (Bambú Estudio Software). Deployment can be done easily using powershell.
+# vikingo-powershell
+Execute a series of tasks for Vikingo Software (Bambú Estudio Software). Deployment of the client-server configuration can be done easily using powershell.
 
