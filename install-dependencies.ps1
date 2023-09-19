@@ -1,5 +1,6 @@
 [Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls";
 Invoke-WebRequest -Uri 'https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/Firebird-2.5.9.27139_0_x64.exe' -OutFile Firebird-2.5.9.27139_0_x64.exe;
+Invoke-WebRequest -Uri 'https://github.com/FirebirdSQL/firebird/releases/download/v3.0.11/Firebird-3.0.11.33703_0_x64.exe' -OutFile Firebird-3.0.11.33703_0_x64.exe;
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command ./Firebird-2.5.9.27139_0_x64.exe /sp- /verysilent /SUPPRESSMSGBOXES /nocancel /noicons /COMPONENTS="ClassicComponent\ClassicComponent,ServerComponent,DevAdminComponent,ClientComponent";
 Remove-Item *.exe;
 Set-Location C:\;
